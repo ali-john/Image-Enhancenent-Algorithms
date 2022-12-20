@@ -44,3 +44,14 @@ The image after histogram equalization technique is applied is shown below:
 
 
 A color histogram of an image represents the number of pixels in each type of color component. Histogram equalization cannot be applied separately to the Red, Green and Blue components of the image as it leads to dramatic changes in the image’s color balance. However, if the image is first converted to another color space, like HSL/HSV color space, then the algorithm can be applied to the luminance or value channel without resulting in changes to the hue and saturation of the image.
+
+ ---
+ ## Balance Contrast Enhancement Technique:
+This technique provides solution to biased color (RGB) composition. The contrast of the image can be stretched or compressed without changing the histogram pattern of the input image(x). The solution is based on the parabolic function obtained from the input image. The output of BCET is shown below:
+
+<img src="https://user-images.githubusercontent.com/63426759/208751144-021f4ac9-3d4f-433c-abf6-a01826988130.png" width="600" height="300" >
+
+
+
+
+ 
